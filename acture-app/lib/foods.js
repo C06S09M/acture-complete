@@ -41,8 +41,8 @@ export const GOALS = {
 export const INTRO_SLIDES = [
   { title: "당신의 요즘 목표는\n무엇인가요?", desc: "ACTure는 최소한 목표를 설정해주고,\n개인 맞춤 스타일을 관리해줄게요", visual: "🎯" },
   { title: "목표를 달성하기 위해선\n건강한 몸이 필요해요", desc: "건강한 라이프 스타일을 유지할 수 있게\n당신에게 맞는 식단을 추천해줄게요", visual: "💪" },
-  { title: "ACTure는 음식을\n분석해줘요", desc: "매일 먹는 음식 사진을 찍고\n업로드 하면, 음식성분을 분석해줘요", visual: "📸" },
-  { title: "이번 달에는,\n이렇게 먹었습니다", desc: "ACTure는 매일 식단을 읽어\n영양성분 섭취 리포트를 정리해드려요", visual: "📊" },
+  { title: "ACTure은 음식을\n분석해줘요", desc: "매일 먹는 음식 사진을 찍고\n업로드 하면, 음식성분을 분석해줘요", visual: "📸" },
+  { title: "이번 달에는,\n이렇게 먹었습니다", desc: "ACTure는 매일 식단을 읽어\n영양성분 섭취 신뢰를 정리해드려요", visual: "📊" },
 ];
 
 export const PRICING = {
