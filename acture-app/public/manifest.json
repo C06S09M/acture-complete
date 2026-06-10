@@ -1,0 +1,14 @@
+{
+  "name": "ACTure - AI 식단 분석",
+  "short_name": "ACTure",
+  "description": "사진 한 장으로 영양성분을 분석하고 맞춤 식단을 추천받으세요",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#8BC34A",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

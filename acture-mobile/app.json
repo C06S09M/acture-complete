@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ACTure",
+    "slug": "acture",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#8BC34A",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.acture.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "음식 사진을 찍어 영양성분을 분석하기 위해 카메라 접근이 필요합니다",
+        "NSPhotoLibraryUsageDescription": "갤러리에서 음식 사진을 선택하기 위해 접근이 필요합니다"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#8BC34A"
+      },
+      "package": "com.acture.app",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "VIBRATE", "RECEIVE_BOOT_COMPLETED"]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#8BC34A"
+        }
+      ],
+      "expo-camera",
+      "expo-image-picker"
+    ],
+    "extra": {
+      "eas": { "projectId": "YOUR_EAS_PROJECT_ID" },
+      "webAppUrl": "https://acture-app.vercel.app"
+    }
+  }
+}
